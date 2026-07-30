@@ -1,8 +1,7 @@
 /* ==========================================================================
-   3D CANVAS BACKGROUND STYLES (Apple + Stripe + Linear Inspired)
+   3D CANVAS BACKGROUND STYLES
    ========================================================================== */
 
-/* Fullscreen Fixed Canvas Behind Everything */
 #webgl-bg {
     position: fixed;
     top: 0;
@@ -13,62 +12,4 @@
     pointer-events: none;
     display: block;
     outline: none;
-}
-
-/* Base Body Background Overlay for Depth */
-body {
-    position: relative;
-    background-color: #0b0f19 !important; /* Rich deep futuristic dark base */
-}
-
-/* Ensure background transparency across sections while keeping cards frosted */
-.hero-section,
-.brands-section,
-.about-section,
-.color-visualizer-section,
-.gallery-section,
-.contact-section {
-    background-color: transparent !important;
-}
-
-.hero-backdrop {
-    display: none !important; /* Hide flat static backdrop gradient so 3D background shines */
-}
-
-/* Premium Glassmorphism Cards for High Readability over 3D Canvas */
-.brand-card,
-.about-img-card,
-.service-card,
-.visualizer-wrapper,
-.gallery-placeholder-card,
-.info-card,
-.contact-form-column,
-.map-placeholder,
-.color-palette-card {
-    background: rgba(255, 255, 255, 0.88) !important;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.4) !important;
-    box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.25) !important;
-}
-
-/* Footer Frosted Dark Glass */
-.site-footer {
-    background: rgba(15, 23, 42, 0.82) !important;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Top bar subtle translucency */
-.top-bar {
-    background-color: rgba(15, 23, 42, 0.9) !important;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-}
-
-.main-nav {
-    background: rgba(255, 255, 255, 0.85) !important;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
 }
